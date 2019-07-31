@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_KategorienKunden</name>
+   <tag></tag>
+   <elementGuidId>5e231a7c-9d19-4be5-a031-3bf945d93f87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Suchwort eingeben'])[1]/following::div[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>panel-nav</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KategorienKunden</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/routercomponent[1]/initcomponent[@class=&quot;ng-star-inserted&quot;]/v7-overlay-panel-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-panel v7-overlay-panel h-100&quot;]/div[@class=&quot;overlay-background&quot;]/div[@class=&quot;overlay-content&quot;]/v7-top-bottom-panel-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-top-bottom-panel&quot;]/div[@class=&quot;row no-gutters&quot;]/v7-collapsible-left-right-panel-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-panel v7-left-right-panel no-gutters row justify-content-start panel-content-center&quot;]/div[@class=&quot;col-auto no-gutters&quot;]/div[@class=&quot;v7-collapse-to-left&quot;]/div[@class=&quot;d-flex flex-row&quot;]/div[1]/v7-folder-panel-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-button v7-folderpanel panel-edge overlay-sidebar-height&quot;]/div[@class=&quot;panel-navigation&quot;]/div[@class=&quot;panel-nav&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suchwort eingeben'])[1]/following::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WEITER'])[1]/following::div[29]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//v7-folder-panel-component/div/div[3]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Back Button in Selection Element Categories not working properly</description>
+   <name>V7 763</name>
+   <tag>Bug</tag>
+   <comment></comment>
+   <testCaseGuid>7816d3e3-84cd-4e07-b56f-be2ea56714e1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Funnel Overlay is broken</description>
+   <name>V7-736</name>
+   <tag>Bug</tag>
+   <comment></comment>
+   <testCaseGuid>0d560b87-a972-4ae4-a94b-a113fa311c78</testCaseGuid>
+</TestCaseEntity>

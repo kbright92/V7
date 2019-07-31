@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Condition drag from dragpool to setbuilder does not work</description>
+   <name>V7 732</name>
+   <tag>Bug</tag>
+   <comment></comment>
+   <testCaseGuid>b3c01fe4-fcce-46ad-aa09-da78b5599a74</testCaseGuid>
+</TestCaseEntity>

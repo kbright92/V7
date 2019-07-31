@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>WorkflowSelection component should use categories
+We need to make it possible to configure a &quot;dropdown menu&quot; for certain workflow-buttons in the workflow-selection.component.</description>
+   <name>V7-717</name>
+   <tag>Features</tag>
+   <comment></comment>
+   <testCaseGuid>82a37479-06dc-4b13-b2d2-aac3c6587c72</testCaseGuid>
+</TestCaseEntity>
