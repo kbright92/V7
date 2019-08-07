@@ -31,8 +31,8 @@
    <testCaseLink>
       <guid>ee8f3659-0736-45b0-b887-d8bc6f3aa923</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Maintenance/V7 763</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/V7 Bugs/V7 763</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b9b9b08f-9125-4d33-8e79-c2319068a7be</guid>

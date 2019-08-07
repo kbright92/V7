@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Explorativ,Chrome 75.0.3770.142,,,2019-08-07 09:17:16,2019-08-07 09:17:53,"36,471s",INCOMPLETE
+,,,,,,,
+Test Cases/Explorativ/Kampagne erstellen,Chrome 75.0.3770.142,,,2019-08-07 09:17:16,2019-08-07 09:17:53,"36,143s",FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-07 09:17:17,2019-08-07 09:17:21,"4,171s",PASSED
+"navigateToUrl(""https://snapshot1.profect.de:1337/v7-snapshot/#/login"")",Chrome 75.0.3770.142,,,2019-08-07 09:17:21,2019-08-07 09:17:21,"0,401s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username (2)""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-07 09:17:21,2019-08-07 09:17:53,"31,110s",FAILED

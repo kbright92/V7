@@ -18,7 +18,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://snapshot1.profect.de:1337/v7-snapshot/#/login')
 
-WebUI.setText(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Login_username (2)'), 'demo')
+WebUI.setText(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Login_username'), 'demo')
 
 WebUI.setEncryptedText(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password (2)'), 'W3BsrpIC7rG/OMTzTgbg+A==')
 

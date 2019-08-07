@@ -30,7 +30,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/V7 Dragpool Operators</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
