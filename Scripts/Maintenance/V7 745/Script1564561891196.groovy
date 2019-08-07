@@ -47,7 +47,8 @@ CustomKeywords.'Jscript.clickUsingJS'(findTestObject('Page_BusinessRadar-Client 
 
 WebUI.waitForPageLoad(5)
 
-CustomKeywords.'Jscript.clickUsingJS'(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Status_mat-input-13'), 0)
+CustomKeywords.'Jscript.clickUsingJS'(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Status_mat-input-13'), 
+    0)
 
 not_run: WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Status_mat-input-13'))
 

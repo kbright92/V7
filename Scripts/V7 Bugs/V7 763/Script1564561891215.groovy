@@ -33,5 +33,5 @@ WebUI.click(findTestObject('Page_BusinessRadar-Client 700/button_Kunden'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/Back button'))
+CustomKeywords.'jscript.Jscript.clickElement'(findTestObject('Page_BusinessRadar-Client 700/Buttons/Back button'))
 

@@ -27,6 +27,6 @@ WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_ANMELDE
 
 WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN'))
 
-CustomKeywords.'com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5'(findTestObject('Page_BusinessRadar-Client 700/Drag/div_Und_operator and'), 
-    findTestObject('Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR'))
+CustomKeywords.'jscript.DragAndDropHelper.dragAndDrop'(findTestObject('Page_BusinessRadar-Client 700/Drag/div_Und_operator and'), 
+    findTestObject(null))
 

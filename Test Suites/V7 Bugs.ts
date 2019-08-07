@@ -37,7 +37,7 @@
    <testCaseLink>
       <guid>b9b9b08f-9125-4d33-8e79-c2319068a7be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/V7 Bugs/V7 796</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -51,5 +51,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Maintenance/V7 744</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37da9452-4c16-473e-82a3-1ef3cb66755d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Maintenance/V7 745</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
