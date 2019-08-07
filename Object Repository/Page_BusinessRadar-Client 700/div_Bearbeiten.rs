@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Bearbeiten</name>
+   <tag></tag>
+   <elementGuidId>93086314-3f45-477b-9ec0-f3e735860861</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#cdk-overlay-12 > div > div > button.setnode-buttonbar-menu-item.mat-menu-item.ng-star-inserted > div.setnode-buttonbar-menu-item-content</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cdk-overlay-12 > div > div > button.setnode-buttonbar-menu-item.mat-menu-item.ng-star-inserted > div.setnode-buttonbar-menu-item-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;cdk-overlay-12&quot;]/div/div/button[4]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bearbeiten</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-2&quot;)/div[@class=&quot;mat-menu-panel ng-trigger ng-trigger-transformMenu ng-tns-c11-9 setnode-buttonbar-menu mat-menu-after mat-menu-below ng-star-inserted mat-elevation-z4&quot;]/div[@class=&quot;mat-menu-content&quot;]/button[@class=&quot;setnode-buttonbar-menu-item mat-menu-item ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/div[@class=&quot;setnode-buttonbar-menu-item-content&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#cdk-overlay-12 > div > div > button.setnode-buttonbar-menu-item.mat-menu-item.ng-star-inserted > div.setnode-buttonbar-menu-item-content</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-2']/div/div/button[4]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entf'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Einschränken'])[1]/preceding::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

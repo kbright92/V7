@@ -16,10 +16,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/V7 Features/V7-717</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>b1e29313-4236-424c-ab8e-3f58e3fc7d65</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/V7 Bugs/V7 694</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

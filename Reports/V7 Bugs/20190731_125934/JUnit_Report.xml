@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="V7 Bugs" time="183" tests="4" failures="2" errors="0">
+    <testsuite name="V7 Bugs" tests="4" failures="2" errors="0" time="183" timestamp="2019-07-31 12:59:39" hostname="kbr - HYPERION.pci.intranet" id="Test Suites/V7 Bugs">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\kbr\\git\\V7\\V7\\V7\\Reports\\V7 Bugs\\20190731_125934"/>
+            <property name="logFiles" value="C:\\Users\\kbr\\git\\V7\\V7\\V7\\Reports\\V7 Bugs\\20190731_125934\\execution0.log"/>
+            <property name="attachments" value="C:\\Users\\kbr\\git\\V7\\V7\\V7\\Reports\\V7 Bugs\\20190731_125934\\1564570892253.png, C:\\Users\\kbr\\git\\V7\\V7\\V7\\Reports\\V7 Bugs\\20190731_125934\\1564570946860.png"/>
+            <property name="hostName" value="kbr - HYPERION.pci.intranet"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 75.0.3770.142"/>
+            <property name="hostAddress" value="192.168.4.141"/>
+            <property name="sessionId" value="181fa60f90b4d6d64f2520d3f1e426f2"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/V7 Bugs/V7 715" classname="Test Cases/V7 Bugs/V7 715" status="PASSED">
+            <system-out>2019-07-31 12:59:39 - [TEST_CASE][PASSED] - Test Cases/V7 Bugs/V7 715: Test Cases/V7 Bugs/V7 715&#xD;
+&#xD;
+2019-07-31 12:59:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 12:59:41 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver&#xD;
+&#xD;
+2019-07-31 12:59:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-31 12:59:46 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 12:59:46 - [TEST_STEP][PASSED] - navigateToUrl("https://nostromo.profect.de:8444/v7-snapshot/#/main"): Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 12:59:59 - [MESSAGE][PASSED] - Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 12:59:59 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully&#xD;
+&#xD;
+2019-07-31 12:59:59 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-07-31 12:59:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Login_username"), "demo"): Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 12:59:59 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 12:59:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password"), "W3BsrpIC7rG/OMTzTgbg+A=="): Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 12:59:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 12:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 12:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 12:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_KAMPAGNEN BEARBEITUNG (1)")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_KAMPAGNEN BEARBEITUNG (1)' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_KAMPAGNEN BEARBEITUNG (1)' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/a_Kampagnenbearbeitung_nav-link tab-button-a v7-highlight-font active")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/a_Kampagnenbearbeitung_nav-link tab-button-a v7-highlight-font active' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/a_Kampagnenbearbeitung_nav-link tab-button-a v7-highlight-font active' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-07-31 13:00:03 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/V7 Bugs/V7 732" classname="Test Cases/V7 Bugs/V7 732" status="PASSED">
+            <system-out>2019-07-31 13:00:03 - [TEST_CASE][PASSED] - Test Cases/V7 Bugs/V7 732: Test Cases/V7 Bugs/V7 732&#xD;
+&#xD;
+2019-07-31 13:00:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:00:03 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver&#xD;
+&#xD;
+2019-07-31 13:00:05 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:00:05 - [TEST_STEP][PASSED] - navigateToUrl("https://nostromo.profect.de:8444/v7-snapshot/#/main"): Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:00:17 - [MESSAGE][PASSED] - Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:00:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Login_username"), "demo"): Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:00:17 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:00:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password"), "W3BsrpIC7rG/OMTzTgbg+A=="): Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:00:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:00:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:18 - [TEST_STEP][PASSED] - com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5(findTestObject("Object Repository/Page_BusinessRadar-Client 700/Drag/div_Und_operator and"), findTestObject("Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR")): com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5 is PASSED&#xD;
+&#xD;
+2019-07-31 13:00:20 - [MESSAGE][PASSED] - com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5 is PASSED</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/V7 Bugs/V7 747" classname="Test Cases/V7 Bugs/V7 747" status="PASSED">
+            <system-out>2019-07-31 13:00:20 - [TEST_CASE][PASSED] - Test Cases/V7 Bugs/V7 747: Test Cases/V7 Bugs/V7 747&#xD;
+&#xD;
+2019-07-31 13:00:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:00:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-07-31 13:00:21 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver&#xD;
+&#xD;
+2019-07-31 13:00:23 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:00:23 - [TEST_STEP][PASSED] - navigateToUrl("https://nostromo.profect.de:8444/v7-snapshot/#/main"): Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:00:34 - [MESSAGE][PASSED] - Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:00:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Login_username"), "demo"): Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:00:35 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:00:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password"), "W3BsrpIC7rG/OMTzTgbg+A=="): Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:00:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:35 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR' is double clicked on&#xD;
+&#xD;
+2019-07-31 13:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR' is double clicked on&#xD;
+&#xD;
+2019-07-31 13:00:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-07-31 13:00:39 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/V7 Bugs/V7 763" classname="Test Cases/V7 Bugs/V7 763" status="FAILED">
+            <failure type="FAILED" message="Test Cases/V7 Bugs/V7 763 FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;&#xA;&#x9;at V7 763.run(V7 763:33)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-07-31 13:00:39 - [TEST_CASE][FAILED] - Test Cases/V7 Bugs/V7 763: Test Cases/V7 Bugs/V7 763 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at V7 763.run(V7 763:33)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-07-31 13:00:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:00:39 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver&#xD;
+&#xD;
+2019-07-31 13:00:41 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:00:41 - [TEST_STEP][PASSED] - navigateToUrl("https://nostromo.profect.de:8444/v7-snapshot/#/main"): Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:00:52 - [MESSAGE][PASSED] - Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:00:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Login_username"), "demo"): Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:00:52 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:00:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password"), "W3BsrpIC7rG/OMTzTgbg+A=="): Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:00:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:00:53 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR' is double clicked on&#xD;
+&#xD;
+2019-07-31 13:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR' is double clicked on&#xD;
+&#xD;
+2019-07-31 13:00:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden"), 5): Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span' not found&#xD;
+&#xD;
+2019-07-31 13:01:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-31 13:01:01 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span' not found&#xD;
+&#xD;
+2019-07-31 13:01:01 - [TEST_STEP][FAILED] - click(findTestObject("Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden")): Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at V7 763.run(V7 763:33)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at Script1564561891215.run(Script1564561891215.groovy:33)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-07-31 13:01:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-31 13:01:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at V7 763.run(V7 763:33)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at Script1564561891215.run(Script1564561891215.groovy:33)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\kbr\\git\\V7\\V7\\V7\\Reports\\V7 Bugs\\20190731_125934\\1564570892253.png]]</system-out>
+            <system-err>2019-07-31 13:00:39 - [TEST_CASE][FAILED] - Test Cases/V7 Bugs/V7 763: Test Cases/V7 Bugs/V7 763 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at V7 763.run(V7 763:33)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden' located by 'By.xpath: //div[@id='folder-buttons']/div/v7-flow-panel-component/div/v7-folder-button-component/div/button/span' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/V7 Bugs/V7 796" classname="Test Cases/V7 Bugs/V7 796" status="FAILED">
+            <failure type="FAILED" message="Test Cases/V7 Bugs/V7 796 FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;&#xA;&#x9;at V7 796.run(V7 796:34)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]' not found&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-07-31 13:01:32 - [TEST_CASE][FAILED] - Test Cases/V7 Bugs/V7 796: Test Cases/V7 Bugs/V7 796 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at V7 796.run(V7 796:34)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-07-31 13:01:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:01:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-07-31 13:01:33 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver&#xD;
+&#xD;
+2019-07-31 13:01:35 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:01:35 - [TEST_STEP][PASSED] - navigateToUrl("https://nostromo.profect.de:8444/v7-snapshot/#/main"): Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:01:47 - [MESSAGE][PASSED] - Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Login_username"), "demo"): Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:01:47 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:01:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password"), "W3BsrpIC7rG/OMTzTgbg+A=="): Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:01:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:01:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:01:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:01:48 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR' is double clicked on&#xD;
+&#xD;
+2019-07-31 13:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR' is double clicked on&#xD;
+&#xD;
+2019-07-31 13:01:50 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully&#xD;
+&#xD;
+2019-07-31 13:01:50 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-07-31 13:01:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)"), 5): Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]' not found&#xD;
+&#xD;
+2019-07-31 13:01:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-31 13:01:56 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]' not found&#xD;
+&#xD;
+2019-07-31 13:01:56 - [TEST_STEP][FAILED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)")): Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at V7 796.run(V7 796:34)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at Script1564561891233.run(Script1564561891233.groovy:34)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-07-31 13:02:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-07-31 13:02:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at V7 796.run(V7 796:34)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at Script1564561891233.run(Script1564561891233.groovy:34)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\kbr\\git\\V7\\V7\\V7\\Reports\\V7 Bugs\\20190731_125934\\1564570946860.png]]</system-out>
+            <system-err>2019-07-31 13:01:32 - [TEST_CASE][FAILED] - Test Cases/V7 Bugs/V7 796: Test Cases/V7 Bugs/V7 796 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)&#xD;
+	at V7 796.run(V7 796:34)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564570774025.run(TempTestSuite1564570774025.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)' located by 'By.xpath: //button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]' not found&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <testcase name="Test Cases/V7 Bugs/V7-736" classname="Test Cases/V7 Bugs/V7-736" status="PASSED">
+            <system-out>2019-07-31 13:02:27 - [TEST_CASE][PASSED] - Test Cases/V7 Bugs/V7-736: Test Cases/V7 Bugs/V7-736&#xD;
+&#xD;
+2019-07-31 13:02:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:02:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-07-31 13:02:28 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver&#xD;
+&#xD;
+2019-07-31 13:02:30 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-07-31 13:02:30 - [TEST_STEP][PASSED] - navigateToUrl("https://nostromo.profect.de:8444/v7-snapshot/#/main"): Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:02:41 - [MESSAGE][PASSED] - Navigate to 'https://nostromo.profect.de:8444/v7-snapshot/#/main' successfully&#xD;
+&#xD;
+2019-07-31 13:02:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Login_username"), "demo"): Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:02:41 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Login_username'&#xD;
+&#xD;
+2019-07-31 13:02:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password"), "W3BsrpIC7rG/OMTzTgbg+A=="): Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:02:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'&#xD;
+&#xD;
+2019-07-31 13:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN")): Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN' is clicked on&#xD;
+&#xD;
+2019-07-31 13:02:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-07-31 13:02:43 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-31 12:59:39 - [TEST_SUITE][INCOMPLETE] - V7 Bugs: null</system-out>
+        <system-err>2019-07-31 12:59:39 - [TEST_SUITE][INCOMPLETE] - V7 Bugs: null</system-err>
+    </testsuite>
+</testsuites>

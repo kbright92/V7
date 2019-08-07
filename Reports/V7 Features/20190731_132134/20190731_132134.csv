@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+V7 Features,Chrome 75.0.3770.142,,,2019-07-31 13:23:30,2019-07-31 13:23:48,"17,860s",INCOMPLETE
+,,,,,,,
+Test Cases/V7 Features/V7-717,Chrome 75.0.3770.142,"WorkflowSelection component should use categories
+We need to make it possible to configure a ""dropdown menu"" for certain workflow-buttons in the workflow-selection.component.",Features,2019-07-31 13:23:31,2019-07-31 13:23:48,"17,524s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-31 13:23:31,2019-07-31 13:23:35,"4,227s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-07-31 13:23:35,2019-07-31 13:23:46,"10,867s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Div/div_Nutzername""))",Chrome 75.0.3770.142,,,2019-07-31 13:23:46,2019-07-31 13:23:46,"0,174s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-07-31 13:23:46,2019-07-31 13:23:47,"0,131s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-07-31 13:23:47,2019-07-31 13:23:47,"0,247s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN""))",Chrome 75.0.3770.142,,,2019-07-31 13:23:47,2019-07-31 13:23:47,"0,090s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Span/span_KAMPAGNENDEFINITION""))",Chrome 75.0.3770.142,,,2019-07-31 13:23:47,2019-07-31 13:23:48,"0,660s",PASSED
+"verifyElementVisible(findTestObject(""Page_BusinessRadar-Client 700/Div/div_Kampagne erstellen  Kampagne modifizieren""))",Chrome 75.0.3770.142,,,2019-07-31 13:23:48,2019-07-31 13:23:48,"0,065s",PASSED
+closeBrowser(),Chrome 75.0.3770.142,,,2019-07-31 13:23:48,2019-07-31 13:23:48,"0,590s",PASSED

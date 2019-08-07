@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-06T10:38:57</date>
+  <millis>1565080737438</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/V7 Bugs</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">V7 Bugs</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/V7 Bugs</property>
+</record>
+<record>
+  <date>2019-08-06T10:38:57</date>
+  <millis>1565080737459</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = kbr - HYPERION.pci.intranet</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">kbr - HYPERION.pci.intranet</property>
+</record>
+<record>
+  <date>2019-08-06T10:38:57</date>
+  <millis>1565080737460</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-08-06T10:38:57</date>
+  <millis>1565080737461</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.4.141</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.4.141</property>
+</record>
+<record>
+  <date>2019-08-06T10:38:57</date>
+  <millis>1565080737465</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.5.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.5.3</property>
+</record>
+<record>
+  <date>2019-08-06T10:38:57</date>
+  <millis>1565080737798</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/V7 Bugs/V7 715</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/V7 Bugs/V7 715</property>
+  <property name="description">mapchart doesn&apos;t resize in \&quot;edit campaign\&quot; workflow</property>
+  <property name="id">Test Cases/V7 Bugs/V7 715</property>
+  <property name="source">C:\\Users\\kbr\\git\\V7\\V7\\V7\\Test Cases\\V7 Bugs\\V7 715.tc</property>
+  <property name="tag">Bug</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-06T10:38:58</date>
+  <millis>1565080738260</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-06T10:38:58</date>
+  <millis>1565080738624</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome (headless)&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-06T10:38:58</date>
+  <millis>1565080738672</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>

@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;folder-buttons&quot;)/div[@class=&quot;panel-body&quot;]/v7-flow-panel-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-flow-panel no-gutters col-auto&quot;]/v7-folder-button-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-button&quot;]/button[@class=&quot;btn btn-md btn-folder cdk-focused cdk-mouse-focused&quot;]/span[1][count(. | //*[@ref_element = 'Object Repository/Page_BusinessRadar-Client 700/TEST']) = count(//*[@ref_element = 'Object Repository/Page_BusinessRadar-Client 700/TEST'])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
          <value>#folder-buttons > div > v7-flow-panel-component > div > v7-folder-button-component:nth-child(1) > div > button > span</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#folder-buttons > div > v7-flow-panel-component > div > v7-folder-button-component:nth-child(1) > div > button</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;folder-buttons&quot;]/div/v7-flow-panel-component/div/v7-folder-button-component[1]/div/button/span</value>
+         <value>//*[@id=&quot;folder-buttons&quot;]/div/v7-flow-panel-component/div/v7-folder-button-component[1]/div/button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <value>id(&quot;folder-buttons&quot;)/div[@class=&quot;panel-body&quot;]/v7-flow-panel-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-flow-panel no-gutters col-auto&quot;]/v7-folder-button-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-button&quot;]/button[@class=&quot;btn btn-md btn-folder cdk-focused cdk-mouse-focused&quot;]/span[1]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>

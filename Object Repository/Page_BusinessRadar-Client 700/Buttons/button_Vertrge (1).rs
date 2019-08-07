@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'Verträge' or . = 'Verträge')]</value>
+         <value>#folder-buttons > div > v7-flow-panel-component > div > v7-folder-button-component:nth-child(2) > div > button</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>#folder-buttons > div > v7-flow-panel-component > div > v7-folder-button-component:nth-child(2) > div > button</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -34,7 +35,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -48,11 +49,18 @@
       <value>Verträge</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;folder-buttons&quot;)/div[@class=&quot;panel-body&quot;]/v7-flow-panel-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-flow-panel no-gutters col-auto&quot;]/v7-folder-button-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;v7-button&quot;]/button[@class=&quot;btn btn-md btn-folder cdk-focused cdk-mouse-focused&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#folder-buttons > div > v7-flow-panel-component > div > v7-folder-button-component:nth-child(2) > div > button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -17,17 +17,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://nostromo.profect.de:8444/v7-snapshot/#/main')
 
+WebUI.waitForPageLoad(3)
+
 WebUI.setText(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Login_username'), 'demo')
 
 WebUI.setEncryptedText(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'), 'W3BsrpIC7rG/OMTzTgbg+A==')
 
 WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN'))
 
-WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN'))
+WebUI.doubleClick(findTestObject('Object Repository/Page_BusinessRadar-Client 700/button_SELEKTIEREN'))
 
-WebUI.doubleClick(findTestObject('Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR'))
+WebUI.mouseOver(findTestObject('Page_BusinessRadar-Client 700/Trichter/div_SetBuilder_setnode-tile-buttonbar-inner setnode-tile-buttonbar-inner-selected'))
 
-WebUI.waitForElementClickable(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)'), 5)
+CustomKeywords.'jscript.Jscript.clickElement'(findTestObject('Page_BusinessRadar-Client 700/Trichter/div_SetBuilder_setnode-tile-buttonbar-inner setnode-tile-buttonbar-inner-selected'))
 
-WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_Vertrge (1)'))
+WebUI.click(findTestObject('Page_BusinessRadar-Client 700/div_Bearbeiten'))
+
+WebUI.click(findTestObject('Page_BusinessRadar-Client 700/button_Kunden'))
+
+WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/Back button'))
+
+WebUI.click(findTestObject('Page_BusinessRadar-Client 700/button_Kunden'))
 

@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+V7 Bugs,Chrome 75.0.3770.142,,,2019-08-06 10:39:22,2019-08-06 10:40:29,"1m - 7,193s",INCOMPLETE
+,,,,,,,
+Test Cases/V7 Bugs/V7 715,Chrome 75.0.3770.142,"mapchart doesn't resize in ""edit campaign"" workflow",Bug,2019-08-06 10:39:22,2019-08-06 10:39:41,"18,572s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-06 10:39:22,2019-08-06 10:39:26,"4,028s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-08-06 10:39:26,2019-08-06 10:39:37,"10,619s",PASSED
+waitForPageLoad(3),Chrome 75.0.3770.142,,,2019-08-06 10:39:37,2019-08-06 10:39:37,"0,115s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-06 10:39:37,2019-08-06 10:39:37,"0,219s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-08-06 10:39:37,2019-08-06 10:39:38,"0,247s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN""))",Chrome 75.0.3770.142,,,2019-08-06 10:39:38,2019-08-06 10:39:38,"0,105s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_KAMPAGNEN BEARBEITUNG (1)""))",Chrome 75.0.3770.142,,,2019-08-06 10:39:38,2019-08-06 10:39:38,"0,662s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/a_Kampagnenbearbeitung_nav-link tab-button-a v7-highlight-font active""))",Chrome 75.0.3770.142,,,2019-08-06 10:39:38,2019-08-06 10:39:40,"1,569s",PASSED
+closeBrowser(),Chrome 75.0.3770.142,,,2019-08-06 10:39:40,2019-08-06 10:39:41,"0,591s",PASSED
+,,,,,,,
+Test Cases/V7 Bugs/V7 732,Chrome 75.0.3770.142,Condition drag from dragpool to setbuilder does not work,Bug,2019-08-06 10:39:41,2019-08-06 10:39:57,"16,302s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-06 10:39:41,2019-08-06 10:39:43,"2,195s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-08-06 10:39:43,2019-08-06 10:39:54,"10,726s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-06 10:39:54,2019-08-06 10:39:54,"0,197s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-08-06 10:39:54,2019-08-06 10:39:54,"0,170s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN""))",Chrome 75.0.3770.142,,,2019-08-06 10:39:54,2019-08-06 10:39:54,"0,099s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN""))",Chrome 75.0.3770.142,,,2019-08-06 10:39:54,2019-08-06 10:39:55,"0,628s",PASSED
+"com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5(findTestObject(""Object Repository/Page_BusinessRadar-Client 700/Drag/div_Und_operator and""), findTestObject(""Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR""))",Chrome 75.0.3770.142,,,2019-08-06 10:39:55,2019-08-06 10:39:57,"1,989s",PASSED
+,,,,,,,
+Test Cases/V7 Bugs/V7 747,Chrome 75.0.3770.142,Problem with CollapseToLeftPanel in OverlayPanel,Bug,2019-08-06 10:39:57,2019-08-06 10:40:14,"17,457s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-06 10:39:57,2019-08-06 10:40:00,"2,777s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-08-06 10:40:00,2019-08-06 10:40:10,"10,237s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-06 10:40:10,2019-08-06 10:40:10,"0,188s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-08-06 10:40:10,2019-08-06 10:40:11,"0,178s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN""))",Chrome 75.0.3770.142,,,2019-08-06 10:40:11,2019-08-06 10:40:11,"0,101s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN""))",Chrome 75.0.3770.142,,,2019-08-06 10:40:11,2019-08-06 10:40:11,"0,626s",PASSED
+"doubleClick(findTestObject(""Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR""))",Chrome 75.0.3770.142,,,2019-08-06 10:40:11,2019-08-06 10:40:14,"2,458s",PASSED
+closeBrowser(),Chrome 75.0.3770.142,,,2019-08-06 10:40:14,2019-08-06 10:40:14,"0,573s",PASSED
+,,,,,,,
+Test Cases/V7 Bugs/V7-736,Chrome 75.0.3770.142,Funnel Overlay is broken,Bug,2019-08-06 10:40:14,2019-08-06 10:40:29,"14,501s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-06 10:40:15,2019-08-06 10:40:17,"2,205s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-08-06 10:40:17,2019-08-06 10:40:27,"10,351s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-06 10:40:27,2019-08-06 10:40:27,"0,208s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-08-06 10:40:27,2019-08-06 10:40:28,"0,163s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN""))",Chrome 75.0.3770.142,,,2019-08-06 10:40:28,2019-08-06 10:40:28,"0,093s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN""))",Chrome 75.0.3770.142,,,2019-08-06 10:40:28,2019-08-06 10:40:28,"0,643s",PASSED
+closeBrowser(),Chrome 75.0.3770.142,,,2019-08-06 10:40:28,2019-08-06 10:40:29,"0,573s",PASSED

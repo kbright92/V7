@@ -27,10 +27,11 @@ WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_SELEKTI
 
 WebUI.doubleClick(findTestObject('Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR'))
 
-WebUI.waitForElementClickable(findTestObject('Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden'), 
-    5)
+WebUI.waitForElementClickable(findTestObject('Page_BusinessRadar-Client 700/button_Kunden'), 5)
 
-WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Span/Page_BusinessRadar-Client 700/span_Kunden'))
+WebUI.click(findTestObject('Page_BusinessRadar-Client 700/button_Kunden'))
 
-WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Input fields/path'))
+WebUI.waitForPageLoad(5)
+
+WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/Back button'))
 

@@ -15,23 +15,24 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://nostromo.profect.de:8444/v7-snapshot/#/main')
+WebUI.navigateToUrl('https://nostromo.profect.de:8444/v7-snapshot/#/login')
 
-WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Div/div_Nutzername'))
+WebUI.click(findTestObject('Object Repository/Page_BusinessRadar-Client 700/div_Nutzername'))
 
-WebUI.setText(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Login_username'), 'demo')
+WebUI.setText(findTestObject('Object Repository/Page_BusinessRadar-Client 700/input_Login_username'), 'demo')
 
-WebUI.setEncryptedText(findTestObject('Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password'), 'W3BsrpIC7rG/OMTzTgbg+A==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_BusinessRadar-Client 700/input_Nutzername_password'), 'W3BsrpIC7rG/OMTzTgbg+A==')
 
 WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN'))
 
-WebUI.click(findTestObject('Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN'))
+WebUI.click(findTestObject('Object Repository/Page_BusinessRadar-Client 700/button_KAMPAGNENDEFINITION'))
 
-WebUI.mouseOver(findTestObject('Page_BusinessRadar-Client 700/Trichter/div_SetBuilder_setnode-tile-buttonbar-inner setnode-tile-buttonbar-inner-selected'))
+WebUI.click(findTestObject('Object Repository/Page_BusinessRadar-Client 700/div_Kampagne erstellen'))
 
-'Setnode problem\r\n'
-CustomKeywords.'Jscript.clickUsingJS'(findTestObject('Page_BusinessRadar-Client 700/Buttons/Button Bearbeiten Setnode tilebar'), 
-    5)
+WebUI.setText(findTestObject('Object Repository/Page_BusinessRadar-Client 700/input_Beschreibung_mat-input-4'), 'Test')
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Object Repository/Page_BusinessRadar-Client 700/input_Bearbeitungszeitraum von_mat-input-9'), 
+    '06.09.2019')
+
+WebUI.click(findTestObject('Object Repository/Page_BusinessRadar-Client 700/span_KAMPAGNE SPEICHERN'))
 
