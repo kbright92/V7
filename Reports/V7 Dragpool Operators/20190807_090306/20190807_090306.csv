@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+V7 Dragpool Operators,Chrome 75.0.3770.142,,,2019-08-07 09:04:42,2019-08-07 09:05:51,"1m - 9,006s",INCOMPLETE
+,,,,,,,
+Test Cases/Dragpool Operators/V7 DragAndDrop AND Operator,Chrome 75.0.3770.142,,,2019-08-07 09:04:43,2019-08-07 09:05:01,"18,743s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-07 09:04:43,2019-08-07 09:04:47,"3,930s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-08-07 09:04:47,2019-08-07 09:04:58,"10,864s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Div/div_Nutzername""))",Chrome 75.0.3770.142,,,2019-08-07 09:04:58,2019-08-07 09:04:58,"0,182s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-07 09:04:58,2019-08-07 09:04:58,"0,158s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-08-07 09:04:58,2019-08-07 09:04:58,"0,245s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN (1)""))",Chrome 75.0.3770.142,,,2019-08-07 09:04:58,2019-08-07 09:04:59,"0,095s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN""))",Chrome 75.0.3770.142,,,2019-08-07 09:04:59,2019-08-07 09:04:59,"0,662s",PASSED
+"com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5(findTestObject(""Page_BusinessRadar-Client 700/Drag/div_Und_operator and""), findTestObject(""Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR""))",Chrome 75.0.3770.142,,,2019-08-07 09:04:59,2019-08-07 09:05:01,"2,151s",PASSED
+,,,,,,,
+Test Cases/Dragpool Operators/V7 DragAndDrop OR Operator,Chrome 75.0.3770.142,,,2019-08-07 09:05:01,2019-08-07 09:05:18,"16,725s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-07 09:05:02,2019-08-07 09:05:04,"2,760s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-08-07 09:05:04,2019-08-07 09:05:15,"10,451s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Div/div_Nutzername""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:15,2019-08-07 09:05:15,"0,162s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-07 09:05:15,2019-08-07 09:05:15,"0,118s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-08-07 09:05:15,2019-08-07 09:05:15,"0,169s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN (1)""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:15,2019-08-07 09:05:15,"0,093s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:15,2019-08-07 09:05:16,"0,615s",PASSED
+"com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5(findTestObject(""Page_BusinessRadar-Client 700/Drag/div_Oder_operator or""), findTestObject(""Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:16,2019-08-07 09:05:18,"2,016s",PASSED
+,,,,,,,
+Test Cases/Dragpool Operators/V7 DragAndDrop NOT Operator,Chrome 75.0.3770.142,,,2019-08-07 09:05:18,2019-08-07 09:05:35,"16,614s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-07 09:05:18,2019-08-07 09:05:21,"2,733s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-08-07 09:05:21,2019-08-07 09:05:31,"10,372s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Div/div_Nutzername""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:31,2019-08-07 09:05:32,"0,154s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-07 09:05:32,2019-08-07 09:05:32,"0,113s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-08-07 09:05:32,2019-08-07 09:05:32,"0,152s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN (1)""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:32,2019-08-07 09:05:32,"0,080s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:32,2019-08-07 09:05:33,"0,630s",PASSED
+"com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5(findTestObject(""Page_BusinessRadar-Client 700/Drag/div_Ohne_operator not""), findTestObject(""Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:33,2019-08-07 09:05:35,"2,088s",PASSED
+,,,,,,,
+Test Cases/Dragpool Operators/V7 DragAndDrop XOR Operator,Chrome 75.0.3770.142,,,2019-08-07 09:05:35,2019-08-07 09:05:51,"16,577s",PASSED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-08-07 09:05:35,2019-08-07 09:05:38,"2,767s",PASSED
+"navigateToUrl(""https://nostromo.profect.de:8444/v7-snapshot/#/main"")",Chrome 75.0.3770.142,,,2019-08-07 09:05:38,2019-08-07 09:05:48,"10,392s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Div/div_Nutzername""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:48,2019-08-07 09:05:48,"0,171s",PASSED
+"setText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Login_username""), ""demo"")",Chrome 75.0.3770.142,,,2019-08-07 09:05:48,2019-08-07 09:05:48,"0,114s",PASSED
+"setEncryptedText(findTestObject(""Page_BusinessRadar-Client 700/Input fields/input_Nutzername_password""), ""W3BsrpIC7rG/OMTzTgbg+A=="")",Chrome 75.0.3770.142,,,2019-08-07 09:05:48,2019-08-07 09:05:49,"0,163s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_ANMELDEN (1)""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:49,2019-08-07 09:05:49,"0,087s",PASSED
+"click(findTestObject(""Page_BusinessRadar-Client 700/Buttons/button_SELEKTIEREN""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:49,2019-08-07 09:05:49,"0,645s",PASSED
+"com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5(findTestObject(""Page_BusinessRadar-Client 700/Drag/div_XOR_operator xor""), findTestObject(""Object Repository/Page_BusinessRadar-Client 700/Trichter/div_VERKNPFUNG NDERN Und Oder  Ohne  XOR""))",Chrome 75.0.3770.142,,,2019-08-07 09:05:49,2019-08-07 09:05:51,"1,952s",PASSED
